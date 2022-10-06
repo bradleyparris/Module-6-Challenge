@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.current-weather-container {
+    border-color: lightgrey;
+    border-width: thin 0 thin thin;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 20px 0 0 20px;
+    padding: 0 0 12px 0;
+}
+
+.current-weather-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.current-temperature, .current-humidity, .current-wind-speed {
+    margin: 15px 20px;
+    font-size: 20px;
+}
+
+.current-uv-index {
+    font-size: 20px;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.favorable {
+    background-color: green;
+}
+
+.moderate {
+    background-color: yellow;
+}
+
+.severe {
+    background-color: red;
+}
