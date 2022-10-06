@@ -40,3 +40,75 @@
 .severe {
     background-color: red;
 }
+
+.future-forecast-container {
+    margin: 5px 20px 0 20px;
+}
+
+.future-forecast-title {
+    font-size: 27px;
+}
+
+.future-card-details {
+    width: 17%;
+    padding: 7px 0 0 7px;
+}
+
+.future-date {
+    font-size: 23px;
+}
+
+.future-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 15px;
+}
+
+.future-temp, .future-humidity {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.h1-container {
+    padding: 4px;
+}
+
+.form-container {
+    padding: 10px;
+}
+
+.search-label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    border-color: lightgrey;
+    border-width: thin;
+    padding: 0 15px;
+}
+
+.search-button {
+    padding: 10px 15px;
+}
+
+.search-history-container {
+    padding: 10px;
+}
+
+.past-search {
+    background-color: white;
+    border-width: thin;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 0;
+    text-align: left;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    color: grey;
+}
